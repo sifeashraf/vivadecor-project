@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+span.line {
+  left: 29px;
+  top: 65px;
+  border-color: #00000078;
+  height: 4.5rem;
+}
+
+@media (min-width: 1160px) {
+  span.line {
+    top: 74px;
+    height: 7.5rem;
+  }
+}
+.email-input {
+  background-image: url("../dist/assist/icons/mail-pencil-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-position: 18px;
+  background-size: 24px, 24px;
+}

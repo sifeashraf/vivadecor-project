@@ -1,0 +1,13 @@
+# Node modules
+node_modules
+
+
+
+# Tailwind config cache
+.tailwind/
+.cache/
+
+# IDE specific files
+.vscode/
+.idea/
+
